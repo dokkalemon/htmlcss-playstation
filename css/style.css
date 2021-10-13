@@ -1,0 +1,27 @@
+/* GENERAL STYLE */
+/* Utilities */
+
+.debug {
+    border: 1px solid red;
+}
+
+*{
+    font-family: 'Arial', sans-serif;
+}
+
+/* body {
+    height: 20000px
+} */
+
+/* Brand */
+.brand-container {
+    background-color: #000;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.brand-container img {
+    height: 18px;
+
+}
+
