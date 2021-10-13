@@ -9,11 +9,11 @@
     font-family: 'Arial', sans-serif;
 }
 
-/* body {
+/*  body {
     background-color: red;
     height: 20000px;
-}
- */
+} */
+ 
 .site-btn {
     border-radius: 50px
 }
@@ -112,6 +112,29 @@ header .header-container .navbar-light .navbar-nav .nav-link {
      color: white;
      font-size: 18px
  }
+
+
+/* Carousel */ 
+.site-carousel-img {
+    height: 100%; 
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-carousel-active {
+    border: 1px solid #0072ce;
+}
+
+
+.site-carousel-img img {
+    height:94%;
+    width: 97%;
+    border-radius: 15px;
+    object-fit: cover;
+}
 
 
 
