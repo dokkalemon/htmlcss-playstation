@@ -23,6 +23,11 @@
     border: 1px solid #363636;
 }
 
+.site-btn-red {
+    background-color: red;
+    border: 1px solid red;
+}
+
 
 /* Brand */
 .brand-container {
@@ -41,7 +46,7 @@ header {
     position: fixed;
     width: 100%;
     top: 30px;
-    background-color: white;
+    background-color: #fff;
 }
 
 header .header-container .navbar-light .navbar-nav .nav-link {
@@ -51,7 +56,6 @@ header .header-container .navbar-light .navbar-nav .nav-link {
 .header-container {
     color: #ffffff
 }
-
 
 .header-container .navbar-brand img {
     height: 50px
@@ -65,32 +69,90 @@ header .header-container .navbar-light .navbar-nav .nav-link {
     padding-left: 0.5rem
 }
 
-
 .site-nav-items ul .nav-item img {
     height: 12px;
     vertical-align: middle;
     margin-left: 7px
 }
-
-
-
-
-
-
- .header-container .navbar-light .navbar-nav .nav-link { color: black}
+ .header-container .navbar-light .navbar-nav .nav-link {
+     color: black
+}
 
  .header-container .navbar-light .navbar-nav .nav-link::after {
      font-size: 19px;
      color: #999999
  }
 
-
-
-
-
-
- .site-nav-right ul li a img {
+.site-nav-right ul li a img {
      height: 23px;
      vertical-align: middle;
  }
  
+ /* Jumbotron */
+ .jumbo {
+     margin-top: 95px;
+     height: 650px;
+     background-image: url('../img/jumbo-bg.png');
+     background-size: cover;
+     background-position: top center;
+     background-repeat: no-repeat
+ }
+
+ .site-jumbo-items img {
+     width: 50%;
+     display: block;
+
+ }
+
+ .site-jumbo-items h2 {
+     color: white;
+ }
+
+ .site-jumbo-items p {
+     color: white;
+     font-size: 18px
+ }
+
+
+
+
+ @media screen and (min-width: 576px) {
+    .site-jumbo-items img {
+        width: 50%;
+        display: block;
+   
+    }
+ }
+
+
+   @media screen and (min-width: 768px) {
+    .site-jumbo-items img {
+     width: 50%;
+     display: block;
+     
+    }
+}
+
+ @media screen and (min-width: 992px) {
+    .site-jumbo-items img {
+        width: 30%;
+        display: block;
+   
+    }
+ } 
+
+ @media screen and (min-width: 1200px) {
+    .site-jumbo-items img {
+        width: 30%;
+        display: block;
+   
+    }
+ } 
+ @media screen and (min-width: 1400px) {
+    .site-jumbo-items img {
+        width: 50%;
+        display: block;
+   
+    }
+ } 
+  
