@@ -48,6 +48,7 @@
     background-color: #000;
     display: flex;
     justify-content: flex-end;
+    z-index: 9999;
 }
 
 .brand-container img {
@@ -62,6 +63,7 @@ header {
     width: 100%;
     top: 30px;
     background-color: #fff;
+    z-index: 9999;;
 }
 
 header .header-container .navbar-light .navbar-nav .nav-link {
