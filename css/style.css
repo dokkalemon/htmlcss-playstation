@@ -168,9 +168,12 @@ header .header-container .navbar-light .navbar-nav .nav-link {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    opacity: 0.8
+    opacity: 0.8;
+    cursor: pointer;
 }
-
+.banner-carousel-item:hover {
+    opacity: 1
+}
 .banner-carousel-item {
     width: calc(100% / 3);
     padding-top: 30px;
@@ -186,6 +189,24 @@ header .header-container .navbar-light .navbar-nav .nav-link {
     opacity: 1
 }
 
+ /* Second Jumbotron */
+ .second-jumbo {
+    margin-top: 95px;
+    height: 650px;
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat
+}
+
+.second-jumbo .site-jumbo-items img {
+    width: 70%;
+    display: block;
+
+}
+
+
+
 
 
  @media screen and (min-width: 576px) {
@@ -199,6 +220,11 @@ header .header-container .navbar-light .navbar-nav .nav-link {
 
    @media screen and (min-width: 768px) {
     .site-jumbo-items img {
+     width: 25%;
+     display: block;
+    }
+
+    .second-jumbo .container .row .site-jumbo-items img {
      width: 50%;
      display: block;
     }
@@ -214,7 +240,7 @@ header .header-container .navbar-light .navbar-nav .nav-link {
     }
 
     .banner-carousel-item img {
-        width: 70%;
+        width: 65%;
     }
     
 }
@@ -222,6 +248,11 @@ header .header-container .navbar-light .navbar-nav .nav-link {
  @media screen and (min-width: 992px) {
     .site-jumbo-items img {
         width: 30%;
+        display: block;
+   
+    }
+    .second-jumbo .container .row .site-jumbo-items img {
+        width: 40%;
         display: block;
    
     }
@@ -233,9 +264,19 @@ header .header-container .navbar-light .navbar-nav .nav-link {
         display: block;
    
     }
+    .second-jumbo .container .row .site-jumbo-items img {
+        width: 25%;
+        display: block;
+   
+    }
  } 
  @media screen and (min-width: 1400px) {
     .site-jumbo-items img {
+        width: 50%;
+        display: block;
+   
+    }
+    .second-jumbo .container .row .site-jumbo-items img {
         width: 50%;
         display: block;
    
