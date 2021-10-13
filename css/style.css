@@ -28,6 +28,20 @@
     border: 1px solid red;
 }
 
+.blue-title p {
+    color: #0072ce;
+    text-transform: uppercase; 
+    margin:0;
+ }
+ 
+.section-title {
+    color: #1f1f1f
+}
+
+.section-subtitle h5 {
+    color: #727272;
+    line-height: 2rem;
+}
 
 /* Brand */
 .brand-container {
@@ -40,6 +54,7 @@
     height: 15px;
 
 }
+
 
 /* Header */
 header {
@@ -131,12 +146,45 @@ header .header-container .navbar-light .navbar-nav .nav-link {
 
 
 .site-carousel-img img {
-    height:94%;
+    height: 95%;
     width: 97%;
     border-radius: 15px;
     object-fit: cover;
 }
 
+
+/* PS5 Banner */
+
+.ps5-image img {
+    width: 100%;
+}
+
+.banner-row {
+    flex-wrap: wrap;
+}
+.banner-carousel-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    opacity: 0.8
+}
+
+.banner-carousel-item {
+    width: calc(100% / 3);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.banner-carousel-item img {
+    width: 95%;
+}
+
+.banner-carousel-active {
+    border-bottom: 2px solid #0072ce;
+    opacity: 1
+}
 
 
 
@@ -153,8 +201,22 @@ header .header-container .navbar-light .navbar-nav .nav-link {
     .site-jumbo-items img {
      width: 50%;
      display: block;
-     
     }
+
+    .banner-carousel-item {
+        width: calc(100% / 5);
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .banner-row {
+        justify-content: center
+    }
+
+    .banner-carousel-item img {
+        width: 70%;
+    }
+    
 }
 
  @media screen and (min-width: 992px) {
