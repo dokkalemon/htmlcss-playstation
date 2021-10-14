@@ -249,18 +249,34 @@ header .header-container .navbar-light .navbar-nav .nav-link {
     width: 100%;
 }
 
-/* Ps Plus */
-.ps-plus-jumbo {
+/* Ps Banner */
+.ps-plus {
     background-color: #bebcbb
 }
 
-.ps-plus-info img {
+.ps-now {
+    background-color: #161c3b;
+}
+
+.ps-info img {
     width: 60%
 }
 
-.ps-plus-img img {
+.ps-img img {
     width: 100%;
 }
+
+.ps-now .ps-info p {
+    color: white;
+}
+
+.ps-now .ps-info button {
+    color: black;
+}
+
+
+
+
 
 /* Discounts */
 .discount-item img {
