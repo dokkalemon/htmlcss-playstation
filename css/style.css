@@ -262,6 +262,10 @@ header .header-container .navbar-light .navbar-nav .nav-link {
     width: 100%;
 }
 
+/* Discounts */
+.discount-item img {
+    width: 100%;
+}
 
 
 
