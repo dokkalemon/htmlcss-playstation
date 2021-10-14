@@ -274,16 +274,15 @@ header .header-container .navbar-light .navbar-nav .nav-link {
     color: black;
 }
 
-
-
-
-
 /* Discounts */
 .discount-item img {
     width: 100%;
 }
 
-
+/* Social Network */
+.social-item img {
+    width: 100%;
+}
 
 
 
