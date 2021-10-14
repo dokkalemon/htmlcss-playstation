@@ -231,6 +231,25 @@ header .header-container .navbar-light .navbar-nav .nav-link {
     font-size: 15px;
 }
 
+/* PS4 Banner */
+.ps4-banner .container .banners-titles .col-12 .section-title sup {
+    font-size: 20px
+}
+.ps4-banner .container .banners-titles .col-12 .section-subtitle h5 {
+    line-height:25px;
+}
+
+
+.ps4-card img {
+    width: 100%;
+}
+
+
+
+
+
+
+
 
  @media screen and (min-width: 576px) {
     .site-jumbo-items img {
