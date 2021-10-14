@@ -24,6 +24,12 @@
     border: 1px solid #363636;
 }
 
+.site-btn-light {
+    background-color: #d9dadc;
+    border: 1px solid #d9dadc;
+    color: #2d64e6;
+}
+
 .site-btn-red {
     background-color: red;
     border: 1px solid red;
@@ -239,9 +245,25 @@ header .header-container .navbar-light .navbar-nav .nav-link {
     line-height:25px;
 }
 
-
 .ps4-card img {
     width: 100%;
+}
+
+/* Ps Plus */
+.ps-plus-jumbo {
+    background-color: #bebcbb
+}
+
+.ps-plus-info img {
+    width: 60%
+}
+
+
+
+
+.ps-plus-img img {
+    width: 100%;
+
 }
 
 
