@@ -323,7 +323,8 @@ header .header-container .navbar-light .navbar-nav .nav-link {
     height: 45px;
 }
 
-.footer-sony p {
+.footer-sony p,
+.footer-sony a {
     color: white;
     font-size: 14.8px
 }
